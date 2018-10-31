@@ -14,4 +14,4 @@ server:
 spring:
   profiles: test
   application:
-    name: spring-cloud-config-client-test
+    name: spring-cloud-config-client
