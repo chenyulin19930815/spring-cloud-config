@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 2244
+spring:
+  profiles: dev
+  application:
+    name: spring-cloud-config-client
+---
+server:
+  port: 2245
+spring:
+  profiles: test
+  application:
+    name: spring-cloud-config-client
