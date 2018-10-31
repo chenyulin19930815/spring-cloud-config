@@ -1,14 +1,3 @@
-﻿spring:
-  profiles:
-    active: test
----
-spring:
-  profiles: dev
-  application:
-    name: spring-cloud-config-server
----
-spring:
-  profiles: test
-  application:
-    name: spring-cloud-config-server-test
+﻿date: 
+  description: today is 2018-10-31
 # 保存为UTF-8格式
